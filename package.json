@@ -1,0 +1,20 @@
+{
+  "name": "projects.pixelastic.com",
+  "description": "Links to sie projects I did",
+  "author": "Tim \"pixelastic\" Carry",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pixelastic/projects.pixelastic.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pixelastic/projects.pixelastic.com/issues"
+  },
+  "scripts": {
+    "deploy": "./scripts/deploy"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
