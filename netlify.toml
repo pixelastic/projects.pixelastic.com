@@ -4,6 +4,11 @@
   publish = ""
 
 [[redirects]]
+  from = "/"
+  to = "https://www.pixelastic.com/projects/"
+  status = 200
+
+[[redirects]]
   from = "/tailwind-config-norska/*"
   to = "https://pixelastic-tailwind-config-norska.netlify.app/:splat"
   status = 200
