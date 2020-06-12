@@ -1,0 +1,14 @@
+# Build website
+[build]
+  command = ""
+  publish = ""
+
+[[redirects]]
+  from = "/tailwind-config-norska/*"
+  to = "https://pixelastic-tailwind-config-norska.netlify.app/:splat"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Clacks-Overhead = "GNU Terry Pratchett"
