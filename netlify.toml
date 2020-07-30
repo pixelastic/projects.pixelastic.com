@@ -14,6 +14,11 @@
   to = "https://pixelastic-tailwind-config-norska.netlify.app/:splat"
   status = 200
 
+[[redirects]]
+  from = "/magic/*"
+  to = "https://pixelastic-magic.netlify.app/:splat"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
