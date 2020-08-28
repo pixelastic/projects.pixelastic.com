@@ -24,6 +24,11 @@
   to = "https://pixelastic-dark.netlify.app/:splat"
   status = 200
 
+[[redirects]]
+  from = "/firost/*"
+  to = "https://pixelastic-firost.netlify.app/:splat"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
