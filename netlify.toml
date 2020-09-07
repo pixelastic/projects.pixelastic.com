@@ -29,6 +29,11 @@
   to = "https://pixelastic-firost.netlify.app/:splat"
   status = 200
 
+[[redirects]]
+  from = "/on-circle/*"
+  to = "https://pixelastic-on-circle.netlify.app/:splat"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
