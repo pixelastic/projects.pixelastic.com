@@ -9,10 +9,6 @@
   force = true
   status = 301
 
-[[redirects]]
-  from = "/tailwind-config-norska/*"
-  to = "https://pixelastic-tailwind-config-norska.netlify.app/:splat"
-  status = 200
 
 [[redirects]]
   from = "/magic/*"
@@ -30,8 +26,18 @@
   status = 200
 
 [[redirects]]
+  from = "/norska/*"
+  to = "https://pixelastic-norska.netlify.app/:splat"
+  status = 200
+
+[[redirects]]
   from = "/on-circle/*"
   to = "https://pixelastic-on-circle.netlify.app/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/tailwind-config-norska/*"
+  to = "https://pixelastic-tailwind-config-norska.netlify.app/:splat"
   status = 200
 
 [[headers]]
