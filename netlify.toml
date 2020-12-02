@@ -35,10 +35,11 @@
   to = "https://pixelastic-on-circle.netlify.app/:splat"
   status = 200
 
+# This project is deprecated and now part of Norska
 [[redirects]]
   from = "/tailwind-config-norska/*"
-  to = "https://pixelastic-tailwind-config-norska.netlify.app/:splat"
-  status = 200
+  to = "https://projects.pixelastic.com/norska/"
+  status = 301
 
 [[headers]]
   for = "/*"
