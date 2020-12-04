@@ -26,6 +26,11 @@
   status = 200
 
 [[redirects]]
+  from = "/golgoth/*"
+  to = "https://pixelastic-golgoth.netlify.app/:splat"
+  status = 200
+
+[[redirects]]
   from = "/norska/*"
   to = "https://pixelastic-norska.netlify.app/:splat"
   status = 200
