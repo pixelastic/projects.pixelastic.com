@@ -40,6 +40,11 @@
   to = "https://pixelastic-on-circle.netlify.app/:splat"
   status = 200
 
+[[redirects]]
+  from = "/aoinan/*"
+  to = "https://pixelastic-aoinan.netlify.app/:splat"
+  status = 200
+
 # This project is deprecated and now part of Norska
 [[redirects]]
   from = "/tailwind-config-norska/*"
