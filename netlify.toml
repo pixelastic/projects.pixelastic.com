@@ -9,7 +9,6 @@
   force = true
   status = 301
 
-
 [[redirects]]
   from = "/magic/*"
   to = "https://pixelastic-magic.netlify.app/:splat"
@@ -43,6 +42,11 @@
 [[redirects]]
   from = "/aoinan/*"
   to = "https://pixelastic-aoinan.netlify.app/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/imoen/*"
+  to = "https://pixelastic-imoen.netlify.app/:splat"
   status = 200
 
 # This project is deprecated and now part of Norska
