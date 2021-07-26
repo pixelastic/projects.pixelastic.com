@@ -56,6 +56,11 @@
   to = "https://pixelastic-dark.netlify.app/:splat"
   status = 200
 
+[[redirects]]
+  from = "/earthporn/*"
+  to = "https://pixelastic-earthporn.netlify.app/:splat"
+  status = 200
+
 # This project is deprecated and now part of Norska
 [[redirects]]
   from = "/tailwind-config-norska/*"
