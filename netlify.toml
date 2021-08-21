@@ -45,6 +45,11 @@
   to = "https://pixelastic-reddinx.netlify.app/:splat"
   status = 200
 
+[[redirects]]
+  from = "/gilmore/*"
+  to = "https://pixelastic-gilmore.netlify.app/:splat"
+  status = 200
+
 # Fun websites
 [[redirects]]
   from = "/magic/*"
